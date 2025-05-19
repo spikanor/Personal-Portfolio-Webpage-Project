@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <img id="header-img" src="https://tinyurl.com/9x6cvya8" alt="Site Logo" />
+    </header>
+
+    <section id="home">
+      <h1>Welcome to Our Site</h1>
+      <p>Home Section.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>What we're all about.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Reach out via email or social media!</p>
+    </section>
+
+    <section id="demo">
+      <h2>Watch a Demo</h2>
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9flte56erE8"
+        title="Demo Video"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="signup">
+      <h2>Sign up for updates</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input type="submit" id="submit" value="Sign Up" />
+      </form>
+    </section>
+  </body>
+</html>
